@@ -23,6 +23,7 @@ class AliyunOSSUpload extends React.Component {
   };
 
   async componentDidMount() {
+    console.log(this.props)
     await this.init();
   }
 
